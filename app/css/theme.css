@@ -1,0 +1,27 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: "Open Sans", sans-serif; }
+  body header #title {
+    font-size: 25px;
+    font-weight: lighter; }
+  body header #description {
+    font-weight: lighter; }
+  body #canvas {
+    position: relative; }
+    body #canvas #tooltip {
+      text-align: center;
+      position: absolute;
+      opacity: 0;
+      background: #115782;
+      padding: 0 10px;
+      border-radius: 5px;
+      pointer-events: none;
+      color: #fff; }
+    body #canvas svg {
+      font-family: "Open Sans", sans-serif;
+      font-size: 20px; }
+      body #canvas svg .cell:hover {
+        stroke: #000;
+        stroke-width: 2; }
